@@ -1,0 +1,46 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.logo {
+	background: url('../img/quotes-logo.png') no-repeat center center;
+	width: 50px;
+	margin-left: 15px;
+}
+
+.navbar-right {
+	margin-right: 0;
+}
+
+.modal-header h4 {
+	color: #fff;
+}
